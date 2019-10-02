@@ -5,6 +5,8 @@
 //   }
 //   return false
 // }
+const nock = require('nock')
+nock.disableNetConnect()
 
 module.exports = {
   clearMocks: true,
